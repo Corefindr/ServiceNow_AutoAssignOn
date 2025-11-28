@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-11-28 08:13:13">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<application_name>Autoassignon</application_name>
+<application_scope>x_1876443_autoassi</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Application to assign incidents on the basis of SOW availability</description>
+<inserted/>
+<name>Autoassignon</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>fd896260c32532107a995312b40131a7</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>1999aeecc3a132107a995312b40131ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>one_api_service_plan_feature_97af1668c3a132107a995312b40131fa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="one_api_service_plan_feature"&gt;&lt;one_api_service_plan_feature action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applicability_condition/&gt;&lt;applicability_condition_expression/&gt;&lt;applicability_condition_table/&gt;&lt;applicability_script&gt;&lt;![CDATA[(function(featureInput, previousFeatureOutputs) {  
+	/* customize condition logic here, return true or false */  
+	return true;
+  })(featureInput, previousFeatureOutputs);]]&gt;&lt;/applicability_script&gt;&lt;applicability_type&gt;script&lt;/applicability_type&gt;&lt;delay_output_processing&gt;false&lt;/delay_output_processing&gt;&lt;depends_on/&gt;&lt;depends_on_list/&gt;&lt;error_policy&gt;continue_service_plan_execution&lt;/error_policy&gt;&lt;feature display_value="1dbdf571fc387110f87736513ef7b2af"&gt;d3af1668c3a132107a995312b40131f3&lt;/feature&gt;&lt;return_request&gt;false&lt;/return_request&gt;&lt;service_plan display_value="Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25"&gt;93af1668c3a132107a995312b40131f8&lt;/service_plan&gt;&lt;sys_class_name&gt;one_api_service_plan_feature&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 07:29:55&lt;/sys_created_on&gt;&lt;sys_id&gt;97af1668c3a132107a995312b40131fa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;one_api_service_plan_feature_97af1668c3a132107a995312b40131fa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 07:29:55&lt;/sys_updated_on&gt;&lt;timeout_policy&gt;continue_service_plan_execution&lt;/timeout_policy&gt;&lt;timeout_sec&gt;240&lt;/timeout_sec&gt;&lt;/one_api_service_plan_feature&gt;&lt;/record_update&gt;</payload>
+<payload_hash>600776543</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>2199aeecc3a132107a995312b40131f2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cc3d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25: 1dbdf571fc387110f87736513ef7b2af</target_name>
+<type>One API Service Plan Feature</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Agent Status" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Agent Status</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Agent Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>5f251a60c36132107a995312b40131b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Agent Status</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-128515673</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>2199ea60c32532107a995312b4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985c9f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_13251a60c36132107a995312b40131ad</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>true</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Agent Status</label><live_feed_enabled>false</live_feed_enabled><name>x_1876443_autoassi_u_agent_status</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>13251a60c36132107a995312b40131ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Autoassi U Agent Status</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_db_object_13251a60c36132107a995312b40131ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1714474946</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>2599ea60c32532107a995312b401315c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985c9890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_5669a69ead3f4b00a5a1e7290902bb2d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[{
+  "name": "x-1876443-autoassignon",
+  "version": "1.0.0",
+  "description": "[BUILD AGENT GENERATED]:  Automatically assigns new incidents to agents who are members of the incident's assignment group and currently logged in and marked available on SOW (Statement of Work)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "now-sdk build",
+    "deploy": "now-sdk install",
+    "transform": "now-sdk transform",
+    "types": "now-sdk dependencies"
+  },
+  "devDependencies": {
+    "@servicenow/sdk": "4.1.0",
+    "@servicenow/glide": "26.0.1",
+    "eslint": "8.50.0",
+    "@servicenow/eslint-plugin-sdk-app-plugin": "4.1.0"
+  }
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;5669a69ead3f4b00a5a1e7290902bb2d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_5669a69ead3f4b00a5a1e7290902bb2d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1666186465</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>2599ea60c32532107a995312b4013165</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cac50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_last_seen</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_last_seen" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Last Seen</column_label><comments/><create_roles/><default_value>javascript:gs.nowDateTime()</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_last_seen</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">glide_date_time</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>e7251a60c36132107a995312b40131c4</sys_id><sys_name>Last Seen</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_last_seen</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>555409869</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>2999ea60c32532107a995312b401315e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca670000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Last Seen</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_976d9224c3a132107a995312b40131fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>write</operation><source_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:20:05</sys_created_on><sys_id>976d9224c3a132107a995312b40131fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_scope_privilege_976d9224c3a132107a995312b40131fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:20:05</sys_updated_on><target_name>incident</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1613263176</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>2999ea60c32532107a995312b4013167</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbf40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>incident</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>976d9224c5a13210532905e397ad00fc</update_guid>
+<update_guid_history>976d9224c5a13210532905e397ad00fc:1613263176</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_69219f84f1e4497d98baae2d3fe9184c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;update_my_sow_status&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2/&gt;&lt;comments/&gt;&lt;condition&gt;current.u_user == gs.getUserID()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style&gt;primary&lt;/form_style&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint&gt;Update your login status and SOW availability&lt;/hint&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Update My SOW Status&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[
+        // Get current values
+        var isLoggedIn = g_form.getValue('u_is_logged_in') == 'true';
+        var availableOnSOW = g_form.getValue('u_available_on_sow') == 'true';
+        var notes = g_form.getValue('u_notes') || '';
+        
+        // Create dialog to update status
+        var dialogText = 'Current Status:\n';
+        dialogText += 'Logged In: ' + (isLoggedIn ? 'Yes' : 'No') + '\n';
+        dialogText += 'Available on SOW: ' + (availableOnSOW ? 'Yes' : 'No') + '\n\n';
+        dialogText += 'Update your status:';
+        
+        // Simple prompt-based update (you could enhance this with a proper dialog)
+        var newLoggedIn = confirm('Are you currently logged in and working?');
+        var newAvailableOnSOW = false;
+        
+        if (newLoggedIn) {
+            newAvailableOnSOW = confirm('Are you available to receive SOW assignments?');
+        }
+        
+        var newNotes = prompt('Enter any notes about your availability (optional):', notes);
+        if (newNotes === null) newNotes = notes; // User cancelled
+        
+        // Update the form
+        g_form.setValue('u_is_logged_in', newLoggedIn);
+        g_form.setValue('u_available_on_sow', newAvailableOnSOW);
+        g_form.setValue('u_last_seen', g_form.getDateTimeValue(new Date()));
+        if (newNotes) {
+            g_form.setValue('u_notes', newNotes);
+        }
+        
+        // Save the form
+        g_form.save();
+        
+        // Show confirmation
+        var statusMsg = 'Status updated: ';
+        statusMsg += 'Logged In: ' + (newLoggedIn ? 'Yes' : 'No') + ', ';
+        statusMsg += 'Available on SOW: ' + (newAvailableOnSOW ? 'Yes' : 'No');
+        
+        g_form.addInfoMessage(statusMsg);
+    ]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;69219f84f1e4497d98baae2d3fe9184c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update My SOW Status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_69219f84f1e4497d98baae2d3fe9184c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;table&gt;x_1876443_autoassi_u_agent_status&lt;/table&gt;&lt;ui11_compatible&gt;false&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1000894324</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>2999ea60c32532107a995312b401319b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cad70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Update My SOW Status</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>b3255a601a613210844e289e3ff8ee29</update_guid>
+<update_guid_history>b3255a601a613210844e289e3ff8ee29:361420261</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status_u_is_logged_in_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_is_logged_in" label="Is Logged In" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_is_logged_in</element><help/><hint/><label>Is Logged In</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Is Logged Ins</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>e7251a60c36132107a995312b40131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Is Logged In</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status_u_is_logged_in_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1025885518</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>2d99ea60c32532107a995312b4013160</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca5b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Is Logged In</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>oauth_entity_50c9dee8c36132107a995312b4013199</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity"><oauth_entity action="INSERT_OR_UPDATE"><access>public</access><access_token_lifespan>1800</access_token_lifespan><active>true</active><auth_code_lifespan>60</auth_code_lifespan><auth_url/><certificate_url/><client_id>1624ac93b46221009eb8191f0e41680d</client_id><client_secret>﷞﷟﷒94c9dee8c36132107a995312b401318e﷬﷔1﷬﷭SlNDY82zXh9YHSQMuTAl6w==DBEnDCoIvONKRsM5RUn9nnVTuZSEeHTCpdZxSGA12yH-WEGR﷮﷯</client_secret><client_type/><client_uuid>90c9dee8c36132107a995312b4013199</client_uuid><code_challenge_method>S256</code_challenge_method><comments>Used by the service WebKit HTML to PDF</comments><default_grant_type>password</default_grant_type><extend_refresh_token_expiry>false</extend_refresh_token_expiry><id_token_lifespan>86400</id_token_lifespan><inbound_grant_type>ropc</inbound_grant_type><jwt_provider/><login_url/><logo_url/><message_signature_lifespan>60</message_signature_lifespan><mobile_client>false</mobile_client><name>WebKit HTML to PDF</name><oauth_api_script/><protocol_name/><public_client>false</public_client><redirect_url/><refresh_token_lifespan>8640000</refresh_token_lifespan><refresh_token_url/><restricted_binding>false</restricted_binding><revoke_token_url/><salt/><send_client_credentials_as>request_body_parameter</send_client_credentials_as><skip_authorize>false</skip_authorize><sub_claim>user_name</sub_claim><sys_class_name>oauth_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:04:03</sys_created_on><sys_id>50c9dee8c36132107a995312b4013199</sys_id><sys_mod_count>0</sys_mod_count><sys_name>WebKit HTML to PDF</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>oauth_entity_50c9dee8c36132107a995312b4013199</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:04:03</sys_updated_on><token_format>opaque</token_format><token_url/><type>client</type><use_mutual_auth>false</use_mutual_auth><use_pkce>false</use_pkce><user/></oauth_entity></record_update>]]></payload>
+<payload_hash>-2083099243</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>5199aeecc3a132107a995312b40131ef</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cb660000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>WebKit HTML to PDF</target_name>
+<type>Application Registries</type>
+<update_domain>global</update_domain>
+<update_guid>f2db5a2071a1321093d3e459698073af</update_guid>
+<update_guid_history>90c9dee83c6132106f5f9d0198c9b3d0:-2083099243</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_notes</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_notes" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Notes</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_notes</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>500</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>2f251a60c36132107a995312b40131c6</sys_id><sys_name>Notes</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_notes</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>358985900</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6199ea60c32532107a995312b401315f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985c9e90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Notes</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_list_x_1876443_autoassi_u_agent_status_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1876443_autoassi_u_agent_status" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_available_on_sow</element><list_id display_value="x_1876443_autoassi_u_agent_status" element="NULL" name="x_1876443_autoassi_u_agent_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f10bdeacc36132107a995312b4013120</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_id>b50bdeacc36132107a995312b4013121</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_is_logged_in</element><list_id display_value="x_1876443_autoassi_u_agent_status" element="NULL" name="x_1876443_autoassi_u_agent_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f10bdeacc36132107a995312b4013120</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_id>3d0bdeacc36132107a995312b4013121</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_last_seen</element><list_id display_value="x_1876443_autoassi_u_agent_status" element="NULL" name="x_1876443_autoassi_u_agent_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f10bdeacc36132107a995312b4013120</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_id>b10bdeacc36132107a995312b4013122</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_notes</element><list_id display_value="x_1876443_autoassi_u_agent_status" element="NULL" name="x_1876443_autoassi_u_agent_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f10bdeacc36132107a995312b4013120</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_id>390bdeacc36132107a995312b4013122</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_user</element><list_id display_value="x_1876443_autoassi_u_agent_status" element="NULL" name="x_1876443_autoassi_u_agent_status" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">f10bdeacc36132107a995312b4013120</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_id>bd0bdeacc36132107a995312b4013122</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1876443_autoassi_u_agent_status</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:09:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f10bdeacc36132107a995312b4013120</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1876443_autoassi_u_agent_status</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_ui_list_x_1876443_autoassi_u_agent_status_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:09:36</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+<payload_hash>1411537997</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6199ea60c32532107a995312b401319c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cb8f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status</target_name>
+<type>List Layout</type>
+<update_domain>global</update_domain>
+<update_guid>7d0bdeacec6132106ee71b4890749926</update_guid>
+<update_guid_history>7d0bdeacec6132106ee71b4890749926:1411537997</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>one_api_feature_d3af1668c3a132107a995312b40131f3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_feature"><one_api_feature action="INSERT_OR_UPDATE"><input_processor display_value="OneExtendGenericCapabilityRequestProcessor">a7eb538353111110c271ddeeff7b12a8</input_processor><name>1dbdf571fc387110f87736513ef7b2af</name><output_processor display_value="OneExtendCapabilityResponseProcessor">3a90ff027f50121032d293f10d866518</output_processor><short_description>Auto Generated </short_description><sys_class_name>one_api_feature</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:29:55</sys_created_on><sys_id>d3af1668c3a132107a995312b40131f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1dbdf571fc387110f87736513ef7b2af</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>one_api_feature_d3af1668c3a132107a995312b40131f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:29:55</sys_updated_on></one_api_feature></record_update>]]></payload>
+<payload_hash>1200739759</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>6599aeecc3a132107a995312b40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cc500000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>1dbdf571fc387110f87736513ef7b2af</target_name>
+<type>One API Feature</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status_u_last_seen_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_last_seen" label="Last Seen" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_last_seen</element><help/><hint/><label>Last Seen</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Last Seens</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>63251a60c36132107a995312b40131c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Last Seen</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status_u_last_seen_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>459644376</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6599ea60c32532107a995312b4013161</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Last Seen</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_002b71782e5e430887d298111718e784</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[import { gs } from '@servicenow/glide';
+
+/**
+ * Business Rule script for auto-assigning incidents to SOW agents
+ * @param {GlideRecord} current - The current incident record
+ * @param {GlideRecord} previous - The previous incident record (for updates)
+ */
+export function autoAssignIncidentScript(current, previous) {
+    try {
+        // Only proceed if not already assigned
+        if (current.assigned_to) {
+            gs.debug('AutoAssignSOWAgent BR: Incident already assigned, skipping auto-assignment');
+            return;
+        }
+        
+        // Only proceed if assignment group is set
+        if (!current.assignment_group) {
+            gs.debug('AutoAssignSOWAgent BR: No assignment group set, skipping auto-assignment');
+            return;
+        }
+        
+        gs.info('AutoAssignSOWAgent BR: Triggering auto-assignment for incident: ' + current.sys_id);
+        
+        // Import the AutoAssignSOWAgent class
+        const { AutoAssignSOWAgent } = require('./auto-assign-sow-agent.js');
+        
+        // Call the assignment logic
+        const result = AutoAssignSOWAgent.assignIncident(current.sys_id.toString());
+        
+        if (result.success) {
+            gs.info('AutoAssignSOWAgent BR: ' + result.message);
+        } else {
+            gs.info('AutoAssignSOWAgent BR: ' + result.message);
+        }
+        
+    } catch (error) {
+        gs.error('AutoAssignSOWAgent BR: Error in business rule: ' + error.message);
+    }
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-incident-script.js&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;002b71782e5e430887d298111718e784&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-incident-script.js&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_002b71782e5e430887d298111718e784&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>85477288</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6999ea60c32532107a995312b4013163</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca960000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-incident-script.js</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>d3251a60c36132107a995312b40131b1</sys_id><sys_name>x_1876443_autoassi_u_agent_status</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1313272522</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>6d99ea60c32532107a995312b401315c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_536d9224c3a132107a995312b40131f2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:20:05</sys_created_on><sys_id>536d9224c3a132107a995312b40131f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.setValue</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_scope_privilege_536d9224c3a132107a995312b40131f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:20:05</sys_updated_on><target_name>GlideRecord.setValue</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-621169471</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6d99ea60c32532107a995312b4013165</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbd10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>GlideRecord.setValue</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>536d922451a13210298676bd6d3367f4</update_guid>
+<update_guid_history>536d922451a13210298676bd6d3367f4:-621169471</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_9f6d9224c3a132107a995312b40131cd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:20:05</sys_created_on><sys_id>9f6d9224c3a132107a995312b40131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>incident</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_scope_privilege_9f6d9224c3a132107a995312b40131cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:20:05</sys_updated_on><target_name>incident</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1371024913</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>6d99ea60c32532107a995312b4013199</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbfe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>incident</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>1f6d92249ea13210c31d2318aee125d1</update_guid>
+<update_guid_history>1f6d92249ea13210c31d2318aee125d1:1371024913</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_1669346bb7d7493e98f10eb15a56ecfa</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:77054961-ed7a-4f06-b4f6-684f453e76ca",
+  "metadata": {
+    "timestamp": "2025-11-28T07:12:40.306Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.1.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1876443-autoassignon",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1876443-autoassignon@1.0.0?sys_scope_id=42e312ecc32132107a995312b4013184",
+      "description": "[BUILD AGENT GENERATED]:  Automatically assigns new incidents to agents who are members of the incident's assignment group and currently logged in and marked available on SOW (Statement of Work)",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1876443-autoassignon@1.0.0?sys_scope_id=42e312ecc32132107a995312b4013184"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1876443-autoassignon@1.0.0?sys_scope_id=42e312ecc32132107a995312b4013184"
+    }
+  ]
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/bom.json&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;1669346bb7d7493e98f10eb15a56ecfa&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/bom.json&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_1669346bb7d7493e98f10eb15a56ecfa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>860582764</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>a199ea60c32532107a995312b4013164</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985caa30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>x_1876443_autoassi/x-1876443-autoassignon/1.0.0/bom.json</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_available_on_sow</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_available_on_sow" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Available on SOW</column_label><comments/><create_roles/><default_value>false</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_available_on_sow</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>a3251a60c36132107a995312b40131c2</sys_id><sys_name>Available on SOW</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_available_on_sow</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-2004006074</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>a599ea60c32532107a995312b401315d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca2d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Available on SOW</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_576d9224c3a132107a995312b40131f6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:20:05</sys_created_on><sys_id>576d9224c3a132107a995312b40131f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.update</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_scope_privilege_576d9224c3a132107a995312b40131f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:20:05</sys_updated_on><target_name>GlideRecord.update</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>104110721</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>a599ea60c32532107a995312b4013166</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbdc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>GlideRecord.update</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>576d92248ea1321092242a4743f05ff8</update_guid>
+<update_guid_history>576d92248ea1321092242a4743f05ff8:104110721</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_baad249b68c44e3c90a098d6f4d902dc</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition&gt;
+        // Trigger on insert or when assignment group changes
+        (current.operation() == 'insert') || 
+        (current.operation() == 'update' &amp;amp;&amp;amp; current.assignment_group.changes() &amp;amp;&amp;amp; current.assignment_group != '')
+    &lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Auto Assign Incident to SOW Agent&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[// @fluent-module autoAssignIncidentScript;false;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-incident-script.js
+// WARNING: This code is generated by the ServiceNow SDK in order to provide
+// support for modular JavaScript. Modifications of any kind are likely to
+// result in unintended behavior. In most cases, you should edit the source
+// file of the module imported below. If you are absolutely certain you want
+// to take control of this code, you can remove this comment to prevent the
+// SDK from regenerating it. However, you will then be responsible for the
+// management of this code in your Fluent file.
+const { autoAssignIncidentScript } = require('x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-incident-script.js');
+autoAssignIncidentScript(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;baad249b68c44e3c90a098d6f4d902dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Assign Incident to SOW Agent&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_baad249b68c44e3c90a098d6f4d902dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=baad249b68c44e3c90a098d6f4d902dc"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1615028450</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>a599ea60c32532107a995312b401319a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cb020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>incident</table>
+<target_name>Auto Assign Incident to SOW Agent</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>eb255a603061321095c00ba02543721f</update_guid>
+<update_guid_history>eb255a603061321095c00ba02543721f:-1999734291</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_user</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_user" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>User</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_user</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>true</mandatory><max_length>32</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>a3251a60c36132107a995312b40131bc</sys_id><sys_name>User</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_user</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-25296700</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>a999ea60c32532107a995312b401315f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.User</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_952bdeacc36132107a995312b4013171</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="952bdeacc36132107a995312b4013171" sys_domain="global" table="x_1876443_autoassi_u_agent_status" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_notes</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>512b92ecc36132107a995312b40131fb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>192b92ecc36132107a995312b40131fc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_user</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>d12b92ecc36132107a995312b40131fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_available_on_sow</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>9d2b92ecc36132107a995312b40131fd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>592b92ecc36132107a995312b40131fe</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_last_seen</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>152b92ecc36132107a995312b40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_is_logged_in</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>dd2b92ecc36132107a995312b40131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_id>992bd2ecc36132107a995312b4013100</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1876443_autoassi_u_agent_status" sys_domain="global" view="Default view">952bdeacc36132107a995312b4013171</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1876443_autoassi_u_agent_status</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:10:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>952bdeacc36132107a995312b4013171</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1876443_autoassi_u_agent_status</sys_name><sys_overrides/><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_ui_section_952bdeacc36132107a995312b4013171</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:10:07</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1584580555</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>a999ea60c32532107a995312b401319c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbc50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d92bd2ec4361321082cff66d3ff09403</update_guid>
+<update_guid_history>d92bd2ec4361321082cff66d3ff09403:1584580555,152b92ec8a6132108383cd604b4dfbf6:2096140173</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>one_api_feature_provider_5baf1668c3a132107a995312b40131f5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="one_api_feature_provider"&gt;&lt;one_api_feature_provider action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;feature display_value="1dbdf571fc387110f87736513ef7b2af"&gt;d3af1668c3a132107a995312b40131f3&lt;/feature&gt;&lt;feature_service display_value="OneExtendGenericProvider"&gt;5233278353111110c271ddeeff7b129b&lt;/feature_service&gt;&lt;feature_service_factory&gt;&lt;![CDATA[(function() { return new global.OneExtendGenericProvider(); })()]]&gt;&lt;/feature_service_factory&gt;&lt;name&gt;Form Autocomplete provider&lt;/name&gt;&lt;short_description&gt;Auto Generated &lt;/short_description&gt;&lt;sys_class_name&gt;one_api_feature_provider&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 07:29:55&lt;/sys_created_on&gt;&lt;sys_id&gt;5baf1668c3a132107a995312b40131f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Form Autocomplete provider&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;one_api_feature_provider_5baf1668c3a132107a995312b40131f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 07:29:55&lt;/sys_updated_on&gt;&lt;type&gt;script&lt;/type&gt;&lt;type_document display_value="SOWTaskIntelligenceAjaxHelper"&gt;2e0e7d71fc387110f87736513ef7b26e&lt;/type_document&gt;&lt;/one_api_feature_provider&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1381811722</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>ad99aeecc3a132107a995312b40131f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cc1d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>Form Autocomplete provider</target_name>
+<type>One API Feature Provider</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status_u_notes_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_notes" label="Notes" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_notes</element><help/><hint/><label>Notes</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Notes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>a7251a60c36132107a995312b40131c7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notes</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status_u_notes_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1829935013</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>ad99ea60c32532107a995312b4013161</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Notes</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status_u_available_on_sow_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_available_on_sow" label="Available on SOW" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_available_on_sow</element><help/><hint/><label>Available on SOW</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Available on SOWs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>2f251a60c36132107a995312b40131c2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Available on SOW</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status_u_available_on_sow_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2140043670</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>e199ea60c32532107a995312b4013160</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985c9b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Available on SOW</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_ef251a60c36132107a995312b40131e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_1876443_autoassi_u_agent_status</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>ef251a60c36132107a995312b40131e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1876443_autoassi_u_agent_status</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>ua_table_licensing_config_ef251a60c36132107a995312b40131e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1163402337</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>e199ea60c32532107a995312b401319d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>x_1876443_autoassi_u_agent_status</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>one_api_service_plan_93af1668c3a132107a995312b40131f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan"><one_api_service_plan action="INSERT_OR_UPDATE"><active>true</active><input_processor/><name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</name><output_processor display_value="OneExtendOutputProcessor">250bd34353111110c271ddeeff7b12da</output_processor><sys_class_name>one_api_service_plan</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:29:55</sys_created_on><sys_id>93af1668c3a132107a995312b40131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>one_api_service_plan_93af1668c3a132107a995312b40131f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:29:55</sys_updated_on><timeout_ms>240000</timeout_ms></one_api_service_plan></record_update>]]></payload>
+<payload_hash>1745177132</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>e599aeecc3a132107a995312b40131f1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cc2f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</target_name>
+<type>One API Service Plan</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_1876443_autoassi_u_agent_status_u_user_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_user" label="User" language="en" table="x_1876443_autoassi_u_agent_status"><sys_documentation action="INSERT_OR_UPDATE"><element>u_user</element><help/><hint/><label>User</label><language>en</language><name>x_1876443_autoassi_u_agent_status</name><plural>Users</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>af251a60c36132107a995312b40131bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_documentation_x_1876443_autoassi_u_agent_status_u_user_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1561263946</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>e599ea60c32532107a995312b4013162</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca430000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.User</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_42e312ecc32132107a995312b4013184</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>log</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created>IDE</ide_created><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>Autoassignon</name><package_json display_value="x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json" path="x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json">x_1876443_autoassi/x-1876443-autoassignon/1.0.0/package.json</package_json><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_1876443_autoassi</scope><scoped_administration>false</scoped_administration><short_description/><source>x_1876443_autoassi</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by/><sys_created_on/><sys_id>42e312ecc32132107a995312b4013184</sys_id><sys_mod_count/><sys_updated_by/><sys_updated_on/><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=42e312ecc32132107a995312b4013184"/></record_update>]]></payload>
+<payload_hash>-1471780929</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>e999ea60c32532107a995312b401315b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985c95a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table/>
+<target_name>Autoassignon</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_module_3362fc58afc64234856446c81d32fea7</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_module"&gt;&lt;sys_module action="INSERT_OR_UPDATE"&gt;&lt;content&gt;&lt;![CDATA[import { gs, GlideRecord, GlideDateTime } from '@servicenow/glide';
+
+/**
+ * AutoAssignSOWAgent - Core logic for automatic incident assignment
+ * to available SOW agents
+ */
+export class AutoAssignSOWAgent {
+    
+    /**
+     * Finds the best available SOW agent for an incident
+     * @param {string} assignmentGroupId - The sys_id of the assignment group
+     * @returns {Object} - {success: boolean, agentId: string, message: string}
+     */
+    static findAvailableAgent(assignmentGroupId) {
+        try {
+            gs.info('AutoAssignSOWAgent: Looking for available agents in group: ' + assignmentGroupId);
+            
+            if (!assignmentGroupId) {
+                return {
+                    success: false,
+                    agentId: null,
+                    message: 'No assignment group specified'
+                };
+            }
+            
+            // Get all group members
+            const groupMembers = [];
+            const grMember = new GlideRecord('sys_user_grmember');
+            grMember.addQuery('group', assignmentGroupId);
+            grMember.query();
+            
+            while (grMember.next()) {
+                groupMembers.push(grMember.getValue('user'));
+            }
+            
+            if (groupMembers.length === 0) {
+                return {
+                    success: false,
+                    agentId: null,
+                    message: 'No members found in assignment group'
+                };
+            }
+            
+            gs.info('AutoAssignSOWAgent: Found ' + groupMembers.length + ' group members');
+            
+            // Find available SOW agents from group members
+            const grAgent = new GlideRecord('x_1876443_autoassi_u_agent_status');
+            grAgent.addQuery('u_user', 'IN', groupMembers.join(','));
+            grAgent.addQuery('u_is_logged_in', true);
+            grAgent.addQuery('u_available_on_sow', true);
+            grAgent.orderByDesc('u_last_seen'); // Most recently active first
+            grAgent.query();
+            
+            if (grAgent.next()) {
+                const agentId = grAgent.getValue('u_user');
+                const agentName = grAgent.getDisplayValue('u_user');
+                
+                gs.info('AutoAssignSOWAgent: Found available agent: ' + agentName + ' (' + agentId + ')');
+                
+                return {
+                    success: true,
+                    agentId: agentId,
+                    agentName: agentName,
+                    message: 'Found available SOW agent: ' + agentName
+                };
+            }
+            
+            return {
+                success: false,
+                agentId: null,
+                message: 'No available SOW agents found in assignment group'
+            };
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error finding available agent: ' + error.message);
+            return {
+                success: false,
+                agentId: null,
+                message: 'Error occurred while finding available agent: ' + error.message
+            };
+        }
+    }
+    
+    /**
+     * Assigns an incident to an available SOW agent
+     * @param {string} incidentId - The sys_id of the incident
+     * @returns {Object} - {success: boolean, message: string}
+     */
+    static assignIncident(incidentId) {
+        try {
+            gs.info('AutoAssignSOWAgent: Processing incident assignment: ' + incidentId);
+            
+            const grIncident = new GlideRecord('incident');
+            if (!grIncident.get(incidentId)) {
+                return {
+                    success: false,
+                    message: 'Incident not found: ' + incidentId
+                };
+            }
+            
+            // Skip if already assigned
+            if (grIncident.getValue('assigned_to')) {
+                return {
+                    success: false,
+                    message: 'Incident already assigned to: ' + grIncident.getDisplayValue('assigned_to')
+                };
+            }
+            
+            const assignmentGroupId = grIncident.getValue('assignment_group');
+            if (!assignmentGroupId) {
+                return {
+                    success: false,
+                    message: 'No assignment group set on incident'
+                };
+            }
+            
+            const result = AutoAssignSOWAgent.findAvailableAgent(assignmentGroupId);
+            
+            if (result.success) {
+                // Assign the incident
+                grIncident.setValue('assigned_to', result.agentId);
+                
+                // Add work note
+                const workNote = 'Assigned automatically to ' + result.agentName + 
+                    ' by AutoAssignOnSOW (u_agent_status match).';
+                grIncident.work_notes = workNote;
+                
+                grIncident.update();
+                
+                gs.info('AutoAssignSOWAgent: Successfully assigned incident ' + incidentId + 
+                    ' to agent ' + result.agentName);
+                
+                return {
+                    success: true,
+                    message: workNote
+                };
+                
+            } else {
+                // Add work note indicating no agent found
+                const workNote = 'No available SOW agent found in assignment group. Please assign manually.';
+                grIncident.work_notes = workNote;
+                grIncident.update();
+                
+                return {
+                    success: false,
+                    message: workNote
+                };
+            }
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error assigning incident: ' + error.message);
+            return {
+                success: false,
+                message: 'Error occurred during assignment: ' + error.message
+            };
+        }
+    }
+    
+    /**
+     * Updates agent status (used by UI Action)
+     * @param {string} userId - The sys_id of the user
+     * @param {boolean} isLoggedIn - Login status
+     * @param {boolean} availableOnSOW - SOW availability status
+     * @param {string} notes - Optional notes
+     * @returns {Object} - {success: boolean, message: string}
+     */
+    static updateAgentStatus(userId, isLoggedIn, availableOnSOW, notes) {
+        try {
+            const grAgent = new GlideRecord('x_1876443_autoassi_u_agent_status');
+            grAgent.addQuery('u_user', userId);
+            grAgent.query();
+            
+            const currentDateTime = new GlideDateTime().getDisplayValue();
+            
+            if (grAgent.next()) {
+                // Update existing record
+                grAgent.setValue('u_is_logged_in', isLoggedIn);
+                grAgent.setValue('u_available_on_sow', availableOnSOW);
+                grAgent.setValue('u_last_seen', currentDateTime);
+                if (notes) {
+                    grAgent.setValue('u_notes', notes);
+                }
+                grAgent.update();
+                
+                gs.info('AutoAssignSOWAgent: Updated status for user: ' + userId);
+                
+            } else {
+                // Create new record
+                grAgent.initialize();
+                grAgent.setValue('u_user', userId);
+                grAgent.setValue('u_is_logged_in', isLoggedIn);
+                grAgent.setValue('u_available_on_sow', availableOnSOW);
+                grAgent.setValue('u_last_seen', currentDateTime);
+                if (notes) {
+                    grAgent.setValue('u_notes', notes);
+                }
+                grAgent.insert();
+                
+                gs.info('AutoAssignSOWAgent: Created new status record for user: ' + userId);
+            }
+            
+            return {
+                success: true,
+                message: 'Agent status updated successfully'
+            };
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error updating agent status: ' + error.message);
+            return {
+                success: false,
+                message: 'Error updating status: ' + error.message
+            };
+        }
+    }
+}]]&gt;&lt;/content&gt;&lt;external_source&gt;false&lt;/external_source&gt;&lt;path&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-sow-agent.js&lt;/path&gt;&lt;sys_class_name&gt;sys_module&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;3362fc58afc64234856446c81d32fea7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-sow-agent.js&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_module_3362fc58afc64234856446c81d32fea7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;/sys_module&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-344236364</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>e999ea60c32532107a995312b4013164</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cab60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>x_1876443_autoassi/x-1876443-autoassignon/1.0.0/src/server/auto-assign-sow-agent.js</target_name>
+<type>EcmaScript Module</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_is_logged_in</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_is_logged_in" table="x_1876443_autoassi_u_agent_status"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Is Logged In</column_label><comments/><create_roles/><default_value>false</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_is_logged_in</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">boolean</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1876443_autoassi_u_agent_status</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 06:44:03</sys_created_on><sys_id>eb251a60c36132107a995312b40131bf</sys_id><sys_name>Is Logged In</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_dictionary_x_1876443_autoassi_u_agent_status_u_is_logged_in</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 06:44:03</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>783477958</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:12</sys_created_on>
+<sys_id>ed99ea60c32532107a995312b401315d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985ca740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:12</sys_updated_on>
+<table>x_1876443_autoassi_u_agent_status</table>
+<target_name>Agent Status.Is Logged In</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_976d9224c3a132107a995312b40131ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>read</operation><source_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-28 07:20:05</sys_created_on><sys_id>976d9224c3a132107a995312b40131ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user_grmember</sys_name><sys_package display_value="Autoassignon" source="x_1876443_autoassi">42e312ecc32132107a995312b4013184</sys_package><sys_policy/><sys_scope display_value="Autoassignon">42e312ecc32132107a995312b4013184</sys_scope><sys_update_name>sys_scope_privilege_976d9224c3a132107a995312b40131ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-28 07:20:05</sys_updated_on><target_name>sys_user_grmember</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-400150103</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>ed99ea60c32532107a995312b4013166</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cbe60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>sys_user_grmember</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>976d922480a132104d39011445d899ef</update_guid>
+<update_guid_history>976d922480a132104d39011445d899ef:-400150103</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Autoassignon">42e312ecc32132107a995312b4013184</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_e4fa82a7b5234e70af0672dc3ec18b0d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1876443_autoassi.AutoAssignSOWAgentInclude&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Script Include for automatic incident assignment to available SOW agents&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;AutoAssignSOWAgentInclude&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[import { gs, GlideRecord, GlideDateTime } from '@servicenow/glide';
+
+/**
+ * AutoAssignSOWAgent - Core logic for automatic incident assignment
+ * to available SOW agents
+ */
+export class AutoAssignSOWAgent {
+    
+    /**
+     * Finds the best available SOW agent for an incident
+     * @param {string} assignmentGroupId - The sys_id of the assignment group
+     * @returns {Object} - {success: boolean, agentId: string, message: string}
+     */
+    static findAvailableAgent(assignmentGroupId) {
+        try {
+            gs.info('AutoAssignSOWAgent: Looking for available agents in group: ' + assignmentGroupId);
+            
+            if (!assignmentGroupId) {
+                return {
+                    success: false,
+                    agentId: null,
+                    message: 'No assignment group specified'
+                };
+            }
+            
+            // Get all group members
+            const groupMembers = [];
+            const grMember = new GlideRecord('sys_user_grmember');
+            grMember.addQuery('group', assignmentGroupId);
+            grMember.query();
+            
+            while (grMember.next()) {
+                groupMembers.push(grMember.getValue('user'));
+            }
+            
+            if (groupMembers.length === 0) {
+                return {
+                    success: false,
+                    agentId: null,
+                    message: 'No members found in assignment group'
+                };
+            }
+            
+            gs.info('AutoAssignSOWAgent: Found ' + groupMembers.length + ' group members');
+            
+            // Find available SOW agents from group members
+            const grAgent = new GlideRecord('x_1876443_autoassi_u_agent_status');
+            grAgent.addQuery('u_user', 'IN', groupMembers.join(','));
+            grAgent.addQuery('u_is_logged_in', true);
+            grAgent.addQuery('u_available_on_sow', true);
+            grAgent.orderByDesc('u_last_seen'); // Most recently active first
+            grAgent.query();
+            
+            if (grAgent.next()) {
+                const agentId = grAgent.getValue('u_user');
+                const agentName = grAgent.getDisplayValue('u_user');
+                
+                gs.info('AutoAssignSOWAgent: Found available agent: ' + agentName + ' (' + agentId + ')');
+                
+                return {
+                    success: true,
+                    agentId: agentId,
+                    agentName: agentName,
+                    message: 'Found available SOW agent: ' + agentName
+                };
+            }
+            
+            return {
+                success: false,
+                agentId: null,
+                message: 'No available SOW agents found in assignment group'
+            };
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error finding available agent: ' + error.message);
+            return {
+                success: false,
+                agentId: null,
+                message: 'Error occurred while finding available agent: ' + error.message
+            };
+        }
+    }
+    
+    /**
+     * Assigns an incident to an available SOW agent
+     * @param {string} incidentId - The sys_id of the incident
+     * @returns {Object} - {success: boolean, message: string}
+     */
+    static assignIncident(incidentId) {
+        try {
+            gs.info('AutoAssignSOWAgent: Processing incident assignment: ' + incidentId);
+            
+            const grIncident = new GlideRecord('incident');
+            if (!grIncident.get(incidentId)) {
+                return {
+                    success: false,
+                    message: 'Incident not found: ' + incidentId
+                };
+            }
+            
+            // Skip if already assigned
+            if (grIncident.getValue('assigned_to')) {
+                return {
+                    success: false,
+                    message: 'Incident already assigned to: ' + grIncident.getDisplayValue('assigned_to')
+                };
+            }
+            
+            const assignmentGroupId = grIncident.getValue('assignment_group');
+            if (!assignmentGroupId) {
+                return {
+                    success: false,
+                    message: 'No assignment group set on incident'
+                };
+            }
+            
+            const result = AutoAssignSOWAgent.findAvailableAgent(assignmentGroupId);
+            
+            if (result.success) {
+                // Assign the incident
+                grIncident.setValue('assigned_to', result.agentId);
+                
+                // Add work note
+                const workNote = 'Assigned automatically to ' + result.agentName + 
+                    ' by AutoAssignOnSOW (u_agent_status match).';
+                grIncident.work_notes = workNote;
+                
+                grIncident.update();
+                
+                gs.info('AutoAssignSOWAgent: Successfully assigned incident ' + incidentId + 
+                    ' to agent ' + result.agentName);
+                
+                return {
+                    success: true,
+                    message: workNote
+                };
+                
+            } else {
+                // Add work note indicating no agent found
+                const workNote = 'No available SOW agent found in assignment group. Please assign manually.';
+                grIncident.work_notes = workNote;
+                grIncident.update();
+                
+                return {
+                    success: false,
+                    message: workNote
+                };
+            }
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error assigning incident: ' + error.message);
+            return {
+                success: false,
+                message: 'Error occurred during assignment: ' + error.message
+            };
+        }
+    }
+    
+    /**
+     * Updates agent status (used by UI Action)
+     * @param {string} userId - The sys_id of the user
+     * @param {boolean} isLoggedIn - Login status
+     * @param {boolean} availableOnSOW - SOW availability status
+     * @param {string} notes - Optional notes
+     * @returns {Object} - {success: boolean, message: string}
+     */
+    static updateAgentStatus(userId, isLoggedIn, availableOnSOW, notes) {
+        try {
+            const grAgent = new GlideRecord('x_1876443_autoassi_u_agent_status');
+            grAgent.addQuery('u_user', userId);
+            grAgent.query();
+            
+            const currentDateTime = new GlideDateTime().getDisplayValue();
+            
+            if (grAgent.next()) {
+                // Update existing record
+                grAgent.setValue('u_is_logged_in', isLoggedIn);
+                grAgent.setValue('u_available_on_sow', availableOnSOW);
+                grAgent.setValue('u_last_seen', currentDateTime);
+                if (notes) {
+                    grAgent.setValue('u_notes', notes);
+                }
+                grAgent.update();
+                
+                gs.info('AutoAssignSOWAgent: Updated status for user: ' + userId);
+                
+            } else {
+                // Create new record
+                grAgent.initialize();
+                grAgent.setValue('u_user', userId);
+                grAgent.setValue('u_is_logged_in', isLoggedIn);
+                grAgent.setValue('u_available_on_sow', availableOnSOW);
+                grAgent.setValue('u_last_seen', currentDateTime);
+                if (notes) {
+                    grAgent.setValue('u_notes', notes);
+                }
+                grAgent.insert();
+                
+                gs.info('AutoAssignSOWAgent: Created new status record for user: ' + userId);
+            }
+            
+            return {
+                success: true,
+                message: 'Agent status updated successfully'
+            };
+            
+        } catch (error) {
+            gs.error('AutoAssignSOWAgent: Error updating agent status: ' + error.message);
+            return {
+                success: false,
+                message: 'Error updating status: ' + error.message
+            };
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-11-28 06:44:04&lt;/sys_created_on&gt;&lt;sys_id&gt;e4fa82a7b5234e70af0672dc3ec18b0d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;AutoAssignSOWAgentInclude&lt;/sys_name&gt;&lt;sys_package display_value="Autoassignon" source="x_1876443_autoassi"&gt;42e312ecc32132107a995312b4013184&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Autoassignon"&gt;42e312ecc32132107a995312b4013184&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e4fa82a7b5234e70af0672dc3ec18b0d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-11-28 06:44:04&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1716536915</payload_hash>
+<remote_update_set display_value="Autoassignon">1999aeecc3a132107a995312b40131ee</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-11-28 08:13:13</sys_created_on>
+<sys_id>ed99ea60c32532107a995312b401319a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19ac985cb510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-11-28 08:13:13</sys_updated_on>
+<table/>
+<target_name>AutoAssignSOWAgentInclude</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f6db5a2057a13210f7f1e9cd56b263cb</update_guid>
+<update_guid_history>f6db5a2057a13210f7f1e9cd56b263cb:0,67255a60a2613210b24a16292d6bbd22:-454694155</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
